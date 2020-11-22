@@ -1,10 +1,5 @@
 # ros quick start
 
-## tag
-- bash script
-- ros
-- desktop
-
 ## 操作說明
 1. 把它放到 workspace/src底下
 1. 更該本資料夾 src/*.bash
