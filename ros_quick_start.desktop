@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=true
+Icon[en_US]=gnome-panel-launcher
+Name[en_US]=ros_quick_start
+
+Exec=bash -ic '/home/user/ros/bolin_ws/src/ros-quick-start/src/ros_quick_start.bash;$SHELL'

@@ -1,9 +1,0 @@
-[Desktop Entry]
-Version=1.0
-Type=Application
-Terminal=true
-Icon[en_US]=gnome-panel-launcher
-Name[en_US]=bolin_ws
-Icon=/home/user/ros/bolin_ws/src/ros-quick-start/img/ros_icon.png
-
-Exec=bash -ic '/home/user/ros/bolin_ws/src/ros-quick-start/src/bolin_ws.bash;$SHELL'
