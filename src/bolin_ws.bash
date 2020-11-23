@@ -10,8 +10,8 @@ echo -e "\033[32m
 # by Kevin Chiu 2020         #
 ##############################
 \033[0m"
-ws_path="/home/user/ros/bolin_ws" # 路徑
-echo -e "ws_path:" $ws_path "\n"
+ws_path=$(pwd) # 路徑
+echo -e "ws_path:" $ws_path "\n" # 列印路徑
 cd $ws_path
 source devel/setup.bash
 
