@@ -20,15 +20,15 @@ source devel/setup.bash
 # 分頁視窗 #
 ###########
 # gnome-terminal --tab -t "分頁名稱" -- bash -ic "指令"
-gnome-terminal --tab -t "hector_slam_launch" -- bash -ic "cd $ws_path;source devel/setup.bash;roslaunch hector_slam_launch tutorial.launch"
+gnome-terminal --tab -t "hector_slam_launch" -- bash -ic "cd $ws_path;source devel/setup.bash;roslaunch hector_slam_launch tutorial.launch;exec bash"
 sleep 0.2
-gnome-terminal --tab -t "joystick" -- bash -ic "cd $ws_path;source devel/setup.bash;rosrun JoyStick joystick /dev/input/js0"
+gnome-terminal --tab -t "joystick" -- bash -ic "cd $ws_path;source devel/setup.bash;rosrun JoyStick joystick /dev/input/js0;exec bash"
 sleep 0.2
-gnome-terminal --tab -t "move_robot" -- bash -ic "cd $ws_path;source devel/setup.bash;rosrun move_robot move_robot /dev/ttyACM0 38400"
+gnome-terminal --tab -t "move_robot" -- bash -ic "cd $ws_path;source devel/setup.bash;rosrun move_robot move_robot /dev/ttyACM0 38400;exec bash"
 sleep 0.2
-gnome-terminal --tab -t "r2000_node" -- bash -ic "cd $ws_path;source devel/setup.bash;rosrun pepperl_fuchs_r2000 r2000_node \"192.168.10.100\""
+gnome-terminal --tab -t "r2000_node" -- bash -ic "cd $ws_path;source devel/setup.bash;rosrun pepperl_fuchs_r2000 r2000_node 192.168.10.100;exec bash"
 sleep 0.2
-gnome-terminal --tab -t "AnhungControl" -- bash -ic "cd $ws_path;source devel/setup.bash;rosrun AnhungControl AnhungControl \"192.168.72.224\" 9930"
+gnome-terminal --tab -t "AnhungControl" -- bash -ic "cd $ws_path;source devel/setup.bash;rosrun AnhungControl AnhungControl 192.168.72.224 9930;exec bash"
 sleep 0.2
 
 exec bash

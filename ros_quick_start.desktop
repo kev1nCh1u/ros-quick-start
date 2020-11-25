@@ -5,4 +5,4 @@ Terminal=true
 Icon[en_US]=gnome-panel-launcher
 Name[en_US]=ros_quick_start
 
-Exec=bash -ic '/home/user/ros/bolin_ws/src/ros-quick-start/src/ros_quick_start.bash;$SHELL'
+Exec=bash -ic '/home/user/ros/bolin_ws/src/ros-quick-start/src/ros_quick_start.bash;exec bash;$SHELL'
