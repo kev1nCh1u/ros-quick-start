@@ -1,6 +1,6 @@
 # ros quick start
 
-
+<a href="" rel="terminal"><img src="/img/terminal.png" alt="" /></a>
 
 ## install
 ```
