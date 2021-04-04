@@ -6,6 +6,8 @@
 ```
   sudo apt-get update
   sudo apt-get install gnome-terminal
+  
+  sudo apt install tmux
 ```
 
 ## 操作說明
