@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=true
+Icon[en_US]=gnome-panel-launcher
+Name[en_US]=tmux_ros
+Icon=/home/user/ros/bolin_ws/src/ros-quick-start/img/ros_icon.png
+
+Exec=bash -ic 'tmux attach -t 0;$SHELL'
